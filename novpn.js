@@ -25,14 +25,27 @@ async function checkVPN() {
         const ip = data.ip;
 
         if (await isVPN(ip)) {
-            document.body.innerHTML = '<h1>TẮT VPN ĐI THẰNG NGU</h1>';
+            document.body.innerHTML = '<h1 class="centered">TẮT VPN ĐI THẰNG NGU</h1>';
         } else {
-            document.body.innerHTML = '<h1>TẮT VPN ĐI THẰNG NGU</h1>';
+            document.body.innerHTML = '<h1 class="centered">TẮT VPN ĐI THẰNG NGU</h1>';
         }
     } catch (error) {
         console.error('Error fetching IP:', error);
-        document.body.innerHTML = '<h1>Something went wrong :(</h1>';
+        document.body.innerHTML = '<h1 class="centered">Something went wrong :(</h1>';
     }
 }
 
 checkVPN();
+
+const style = document.createElement('style');
+style.innerHTML = `
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 100px;
+}
+`;
+document.head.appendChild(style);
