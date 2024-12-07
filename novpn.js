@@ -25,13 +25,13 @@ async function checkVPN() {
         const ip = data.ip;
 
         if (await isVPN(ip)) {
-            document.body.innerHTML = '<h1>VPN are not allow here</h1>';
+            document.body.innerHTML = '<h1>TẮT VPN ĐI THẰNG NGU</h1>';
         } else {
-            document.body.innerHTML = '<h1>Proxy are not allow here</h1>';
+            document.body.innerHTML = '<h1>TẮT VPN ĐI THẰNG NGU</h1>';
         }
     } catch (error) {
         console.error('Error fetching IP:', error);
-        document.body.innerHTML = '<h1>Something went wrong</h1>';
+        document.body.innerHTML = '<h1>Something went wrong :(</h1>';
     }
 }
 
