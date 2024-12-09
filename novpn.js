@@ -25,7 +25,7 @@ async function checkVPN() {
         const ip = data.ip;
 
         if (await isVPN(ip)) {
-            document.body.innerHTML = '<h1 class="centered">VPN/Proxy detected. Access blocked.</h1>';
+            document.body.innerHTML = '<h1 class="centered">VPN/Proxy detected. Access is restricted.</h1>';
         } else {
             checkDevice();
         }
@@ -39,9 +39,9 @@ function checkDevice() {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
     if (/android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        document.body.innerHTML = '<h1 class="centered">Access from mobile devices is blocked.</h1>';
+        document.body.innerHTML = '<h1 class="centered">Access granted. You are using a mobile device.</h1>';
     } else {
-        document.body.innerHTML = '<h1 class="centered">Access granted. You are using a desktop.</h1>';
+        document.body.innerHTML = '<h1 class="centered">Access granted. You are using a desktop device.</h1>';
     }
 }
 
