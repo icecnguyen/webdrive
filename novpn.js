@@ -27,21 +27,11 @@ async function checkVPN() {
         if (await isVPN(ip)) {
             document.body.innerHTML = '<h1 class="centered">VPN/Proxy detected. Access is restricted.</h1>';
         } else {
-            checkDevice();
+            document.body.innerHTML = '<h1 class="centered">Access granted. You are not using a VPN or proxy.</h1>';
         }
     } catch (error) {
         console.error('Error fetching IP:', error);
         document.body.innerHTML = '<h1 class="centered">Something went wrong :(</h1>';
-    }
-}
-
-function checkDevice() {
-    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-    if (/android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        document.body.innerHTML = '<h1 class="centered">Access granted. You are using a mobile device.</h1>';
-    } else {
-        document.body.innerHTML = '<h1 class="centered">Access granted. You are using a desktop device.</h1>';
     }
 }
 
