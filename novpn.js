@@ -1,5 +1,5 @@
 async function isVPN(ip) {
-    const apiKey = 'your_api_key_here';
+    const apiKey = '8186e0283eae42e8a4e91394b0c4c97d';
     const url = `https://api.ipgeolocation.io/ipgeo?apiKey=${apiKey}&ip=${ip}`;
     
     try {
@@ -27,11 +27,21 @@ async function checkVPN() {
         if (await isVPN(ip)) {
             document.body.innerHTML = '<h1 class="centered">VPN/Proxy detected. Access blocked.</h1>';
         } else {
-            document.body.innerHTML = '<h1 class="centered">Access granted.</h1>';
+            checkDevice();
         }
     } catch (error) {
         console.error('Error fetching IP:', error);
         document.body.innerHTML = '<h1 class="centered">Something went wrong :(</h1>';
+    }
+}
+
+function checkDevice() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        document.body.innerHTML = '<h1 class="centered">Access from mobile devices is blocked.</h1>';
+    } else {
+        document.body.innerHTML = '<h1 class="centered">Access granted. You are using a desktop.</h1>';
     }
 }
 
