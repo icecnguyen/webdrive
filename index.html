@@ -5,26 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>icecnguyen drive</title>
     <link rel="stylesheet" href="main.css">
-    <script src="" defer></script>
+    <script src="light&dark.js" defer></script>
+    <script src="changelang.js" defer></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to icecnguyen drive</h1>
+        <h1 id="welcome">Welcome to icecnguyen drive</h1>
     </header>
     <nav>
         <a href="https://icecnguyen.github.io/webdrive">Home</a>
         <a href="https://discord.gg/wecpkGnQub" target="_blank">Discord</a>
         <a href="https://github.com/icecnguyen" target="_blank">Github</a>
         <a href="https://www.youtube.com/@icecnguyen" target="_blank">Youtube</a>
+        <button id="theme-toggle">Change Theme</button>
+        <select id="language-selector">
+            <option value="en">English</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="fr">Français</option>
+        </select>
     </nav>
     <main>
-        <h2>Download ADOFAI Level</h2>
-        <a href="https://drive.google.com/drive/folders/1Yxy_I-Sps8VmM-UGDEt_yeeKJbhQejSB?usp=sharing" target="_blank">My custom</a><br>
-        <a href="https://drive.google.com/drive/folders/18tZojVQAY-g4mOT5boVcf09ER6InywU9?usp=sharing" target="_blank">Grand Chart Team custom</a><br>
-        <a href="https://drive.google.com/drive/folders/1wHE5VuwN55Y9BXLG0oS3wB1UaxWxmK-T?usp=sharing" target="_blank">Team VN custom</a><br>
-       <p><div class="cf-turnstile" data-sitekey="0x4AAAAAAA1mHI_EandxhRVg"></div></p>
-        <p>Click <a href="https://discordapp.com/users/598062127508488192" target="_blank">here</a> if you have any questions or suggestions</p>
+        <h2 id="download">Download ADOFAI Level</h2>
+        <a class="custom-link" href="https://drive.google.com/drive/folders/1Yxy_I-Sps8VmM-UGDEt_yeeKJbhQejSB?usp=sharing" target="_blank">My custom</a><br>
+        <a class="custom-link" href="https://drive.google.com/drive/folders/18tZojVQAY-g4mOT5boVcf09ER6InywU9?usp=sharing" target="_blank">Grand Chart Team custom</a><br>
+        <a class="custom-link" href="https://drive.google.com/drive/folders/1wHE5VuwN55Y9BXLG0oS3wB1UaxWxmK-T?usp=sharing" target="_blank">Team VN custom</a><br>
+        <p><div class="cf-turnstile" data-sitekey="0x4AAAAAAA1mHI_EandxhRVg"></div></p>
+        <p id="questions">Click <a class="custom-link" href="https://discordapp.com/users/598062127508488192" target="_blank">here</a> if you have any questions or suggestions</p>        
     </main>
     <footer>
         <p>&copy; Offical Website</p>
