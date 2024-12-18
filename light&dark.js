@@ -1,6 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const themeToggle = document.getElementById('theme-toggle');
-    themeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
+    const themeChange = document.getElementById('theme-change');
+
+    themeChange.addEventListener('change', (event) => {
+        const selectedTheme = event.target.value;
+        if (selectedTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+        } else {
+            document.body.classList.remove('dark-mode');
+        }
     });
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    if (prefersDarkScheme) {
+        document.body.classList.add('dark-mode');
+        themeChange.value = 'dark';
+    } else {
+        document.body.classList.remove('dark-mode');
+        themeChange.value = 'light';
+    }
 });

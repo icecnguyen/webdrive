@@ -9,11 +9,6 @@ const translations = {
         download: "Tải về cấp độ ADOFAI",
         questions: "Nhấn <a class='custom-link' href='https://discordapp.com/users/598062127508488192' target='_blank'>vào đây</a> nếu bạn có bất kỳ câu hỏi hoặc gợi ý nào"
     },
-    fr: {
-        welcome: "Bienvenue sur icecnguyen drive",
-        download: "Télécharger le niveau ADOFAI",
-        questions: "Cliquez <a class='custom-link' href='https://discordapp.com/users/598062127508488192' target='_blank'>ici</a> si vous avez des questions ou des suggestions"
-    }
 };
 const elements = {
     welcome: document.getElementById("welcome"),
