@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("level-container");
 
   try {
-    const res = await fetch("/assets/data/maps.json");
+    const res = await fetch("assets/data/maps.json");
     const data = await res.json();
 
     for (const team in data) {
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     container.innerHTML = "<p>Lỗi khi tải dữ liệu</p>";
   }
 });
+
 
 
 
