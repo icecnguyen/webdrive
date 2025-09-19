@@ -1,0 +1,153 @@
+body {
+  font-family: 'Minecraft Regular';
+  margin: 0;
+  background: #f4f4f4;
+  color: #000000;
+  font-size: 20px ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #002c3e;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+.map-group {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.map-card {
+  background: white;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #00000020;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2em;
+  width: 80%;
+  margin: 20px auto 0 auto;
+  padding: 2em;
+  background-color: #fdfdff;
+  border-radius: 0.5em;
+  box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+  line-height: 1.6;
+}
+
+#level-container > h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+#level-container {
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: 1500px;
+  width: 100%;
+}
+
+.map-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1rem;
+    width: 100%;
+  height: 100%;
+}
+
+.map-video {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  max-height: 100%;
+  flex-grow: 1;
+  border: none;
+}
+
+.dl-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (orientation: landscape) {
+  .map-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .map-info, .map-video {
+    flex: 1;
+  }
+
+  .map-video iframe {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 768px) {
+  nav h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  main {
+    width: 95%;
+    padding: 1em;
+  }
+
+  .map-wrapper {
+    flex-direction: column;
+  }
+
+  .map-info {
+    font-size: 0.95rem;
+  }
+
+  .map-video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+}
+
+
+#level-container ul li a {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+#level-container ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

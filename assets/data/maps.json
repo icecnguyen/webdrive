@@ -1,0 +1,206 @@
+{
+  "Grand Chart Team Custom": {
+    "1": {
+      "name": "Megasphere - Inferno",
+      "author": "Grand Chart Team (icecnguyen | icecnguyen)",
+      "bpm": "170",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/18g08gvqsss0iYSiHmZjWzkmddlYWTjaG/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/0tsKNu9WjkQ",
+      "color": "#3366FF"
+    },
+    "2": {
+      "name": "takehirotei - Birthday song speedrun any%",
+      "author": "Grand Chart Team (icecnguyen | icecnguyen)",
+      "bpm": "727 - 297.5 - 259.5 - 121.5 - 242",
+      "difficulty": "G16 (TUF)",
+      "download": "https://drive.google.com/file/d/185EYCAqsThHyjvI0OMokNdcDdnhpYfpQ/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/jrE4IWBi_ck",
+      "color": "#3366FF"
+    },
+    "3": {
+      "name": "kanemiko - comet casting capsule",
+      "author": "Grand Chart Team (Cn特5!5 | icecnguyen & Cn特5!5)",
+      "bpm": "250",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1TLbmOMfBNfe_9NkRqvqalhIyxddRZUZo/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/3P-_w0G2ed8",
+      "color": "#3366FF"
+    }
+  },
+    "TeamVN Custom": {
+    "4": {
+      "name": "Plum - Crossing Note",
+      "author": "TeamVN (!nhlevl | chesser13)",
+      "bpm": "160",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1O6jdviHftQ3zsxbxe-dVAMai4_N4rZDS/view?usp=share_link",
+      "youtube": "https://www.youtube.com/embed/MgSv2wcRKXA",
+      "color": "#3366FF"
+    },
+    "5": {
+      "name": "Plum - Megamix 2",
+      "author": "TeamVN (icecnguyen & chesser13 & !nhlevl & danchoi1029 | icecnguyen & chesser13 & HN ADOFAI)",
+      "bpm": "160 - 180",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1fFzMmqSe_FoU4ALqf0hh2vULIfiCB0g_/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/ELEU6vN1S2U",
+      "color": "#3366FF"
+    },
+    "6": {
+      "name": "かめりあ - We Could Get More Machinegun Psystyle",
+      "author": "TeamVN (Kiyoshi | chesser13 & icecnguyen)",
+      "bpm": "160 - 128 - 160",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/11z09-7u2JdbG_fpon8oZbJsGvXGeVBhp/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/vDyrls1LdVk",
+      "color": "#3366FF"
+    }
+  },
+  "icecnguyen Custom": {
+    "7": {
+      "name": "Plum - Flower Rocket (No VFX)",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "230",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/14h0yCTRcP0N7TdjF6XqaWRhzMZ8TnhX6/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/anLfPAd0_JA",
+      "color": "#3366FF"
+    },
+    "8": {
+      "name": "Plum - R (All Hold)",
+      "author": "???",
+      "bpm": "180",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/14h0yCTRcP0N7TdjF6XqaWRhzMZ8TnhX6/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/r9Zi36ObSn0",
+      "color": "#3366FF"
+    },
+    "9": {
+      "name": "Plum - Stardrop Tear (No VFX)",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "180",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1iOwbYeRgeQnbxNfm2v3U6iMJ00vIriIa/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/Ftfnpysch5g",
+      "color": "#3366FF"
+    },
+    "10": {
+      "name": "Raimukun - C†hulhu (Ex)",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "186",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1HNI3hFqOUu996mcsPqZlBKcy11hh6KCK/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/1OctlBz8VD8",
+      "color": "#3366FF"
+    },
+    "11": {
+      "name": "Megasphere - Inferno (Effect)",
+      "author": "Nephrolepis | icecnguyen",
+      "bpm": "170",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1VEjoc0Bmp07CNNfXrMDWSWpdEr7z8Fwn/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/bzKVM_smv_s",
+      "color": "#3366FF"
+    },
+    "12": {
+      "name": "Plum - Kaleidoscope (Renew 2024)",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "180",
+      "difficulty": "P16 (TUF)",
+      "download": "https://drive.google.com/file/d/12V1Y9hZmnMRZk-vCO3yNyR9jKY9nf0y7/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/iyVUTcG4to",
+      "color": "#3366FF"
+    },
+    "13": {
+      "name": "かめりあ - [The] Immortal Scream (No VFX)",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "?",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1aQP7McsklSJy_cuS1pMWF5vulspH07zN/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/9Gtx84uEgnQ",
+      "color": "#3366FF"
+    },
+    "14": {
+      "name": "seatrus - M A X I M U M B L A S T E R (No VFX)",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "?",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1Zz-JnkWUzjPa3Jcu0oQQE74VZEq1ZgoE/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/XZrs2L03p4k",
+      "color": "#3366FF"
+    },
+    "15": {
+      "name": "seatrus - M A X I M U M B L A S T E R",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "?",
+      "difficulty": "?",
+      "download": "https://drive.google.com/file/d/1VD2DDaAZk-PGt--agpimNy_1FDwJ1hP7/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/8YvRm1RRUWg",
+      "color": "#3366FF"
+    },
+    "16": {
+      "name": "ikaruga nex vs 影虎。 - Grabinschrift der Götter",
+      "author": "icecnguyen & Reiz | icecnguyen",
+      "bpm": "200",
+      "difficulty": "G11",
+      "download": "https://drive.google.com/file/d/1bVL6WBL_pCzpv76LKkgPaqYTAX8k2NuE/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/Fw9CNPnsINk",
+      "color": "#3366FF"
+    },
+    "17": {
+      "name": "ikaruga nex vs 影虎。 - Grabinschrift der Götter (Full Effect)",
+      "author": "icecnguyen & Reiz | icecnguyen",
+      "bpm": "200",
+      "difficulty": "G11",
+      "download": "https://drive.google.com/file/d/1RE9X0CWtWLHJrfOWx39gK5JwGwgo_Okw/view?usp=drive_link",
+      "youtube": "https://www.youtube.com/embed/-XUL-SbDVMU",
+      "color": "#3366FF"
+    },
+    "18": {
+      "name": "かめりあ - M1LLI0N PP [ REMAKE | Low Camera ]",
+      "author": "Nephrolepis | icecnguyen",
+      "bpm": "120 - 234",
+      "difficulty": "?",
+      "download": "https://fixcdn.hyonsu.com/attachments/1295614607511130144/1383688752240656384/M1LLI0N_PP.adofai?ex=684fb412&is=684e6292&hm=5641046ab4af8d8c74771393033b7e5352860c6bf0ff9fdfecaa22833aff18a9&",
+      "youtube": "https://www.youtube.com/embed/F7A1i7q9-Vw",
+      "color": "#3366FF"
+    },
+    "19": {
+      "name": "Tanger - Sub-Zer0 (Low Effect)",
+      "author": "oceanic shipping and trade | icecnguyen",
+      "bpm": "160",
+      "difficulty": "?",
+      "download": "https://fixcdn.hyonsu.com/attachments/1295614607511130144/1399557146013732874/Tanger_-_Sub-Zero.zip?ex=68896eaa&is=68881d2a&hm=2ffa68598b45b2606fabd0f5319ecd13163369aad65d14f54e107506bd4ba9c8&",
+      "youtube": "https://www.youtube.com/embed/nVr8olonTtI",
+      "color": "#3366FF"
+    },
+    "20": {
+      "name": "かめりあ - When You See It (Nerfed)",
+      "author": "Asansis & icecnguyen | icecnguyen",
+      "bpm": "727",
+      "difficulty": "G17 (TUF)",
+      "download": "https://drive.google.com/file/d/1zwcszEagnHb2H6jhlK3lHEI2GUP6PNH-/view?usp=sharing",
+      "youtube": "https://www.youtube.com/embed/C6xouKTpDNQ",
+      "color": "#3366FF"
+    },
+    "21": {
+      "name": "zsry & KreScent - After the Demise (No VFX)",
+      "author": "icecnguyen | icecnguyen",
+      "bpm": "299",
+      "difficulty": "?",
+      "download": "#null",
+      "youtube": "https://www.youtube.com/embed/exvD49ESmwk",
+      "color": "#3366FF"
+    },
+    "22": {
+      "name": "ikaruga_nex vs. 影虎。 - Grabinschrift der Götter (EX)",
+      "author": "icecnguyen & Reiz",
+      "bpm": "200",
+      "difficulty": "?",
+      "download": "#null",
+      "youtube": "https://www.youtube.com/embed/MyKBvoWTM3E",
+      "color": "#3366FF"
+    }
+  }
+}
