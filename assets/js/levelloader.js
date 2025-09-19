@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("level-container");
 
   try {
-    const res = await fetch("/bio/data/maps.json");
+    const res = await fetch("assets/data/maps.json");
     const data = await res.json();
 
     const urlParams = new URLSearchParams(window.location.search);
@@ -98,5 +98,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.error(err);
   }
 });
+
 
 
