@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   } catch (err) {
     container.innerHTML = "<p>Lỗi khi tải dữ liệu</p>";
-    console.error(err);
   }
 });
+
 
 
 
